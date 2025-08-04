@@ -42,10 +42,9 @@ A modern, dark-themed personal finance management application built with Laravel
    DB_PASSWORD=your_password
    ```
 
-4. **Run migrations and seed data**
+4. **Run migrations**
    ```bash
    php artisan migrate
-   php artisan db:seed --class=UserSeeder
    ```
 
 5. **Start the server**
@@ -75,8 +74,7 @@ resources/views/
 └── transactions/index.blade.php, create.blade.php
 
 database/
-├── migrations/
-└── seeders/UserSeeder.php
+└── migrations/
 ```
 
 ## License
